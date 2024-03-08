@@ -3,44 +3,56 @@
 @media (max-width:1980px){
     body{
         background-color: white;
+        /* margin: 0px; */
     }
     .navDiv{
-        border: solid black;
+        border-bottom: solid black;
+        border-width: thin;
         display: flex;
         justify-content: space-between;
         width: 100%;
         align-items: center;
         background-color: white;
+        height: 50px;
     
     
     }
     .leftContainer{
-        border: solid black;
+        /* border: solid black; */
         display: flex;
         justify-content: space-between;
-        width: 40%;
+        width: 43%;
+        height: 100%;
         align-items: center;
     
     }
     .rightContainer{
-        border: solid black;
+        /* border: solid black; */
         display: flex;
         justify-content: space-evenly;
         width: 40%;
     
     }
     .logoContainer{
-        border: solid black;
-        display: block;
+        /* border: solid black; */
+        display: flex;
+        width: 15%%;
+        height: 100%;
+        background-color: #E60012;
     
     }
     .logo{
-        border: solid black;
+        /* border: solid black; */
         display: block;
+        height: 40px;
+        width: 100%;
     
     }
     .searchdiv{
         display:flex ;
+        border-bottom: solid black;
+        border-width: thin;
+        width: 73%;
 
     }
     #searchbar{
@@ -54,7 +66,7 @@
         font-size: 12px;
     }
     .navBtn{
-        border: solid black;
+        /* border: solid black; */
         display: block;
     
         
@@ -71,7 +83,8 @@
         cursor: pointer;
     }
     .secondContainer{
-        border: solid black;
+        border-bottom: solid black;
+        border-width: thin;
         width: 100%;
         height: 40px;
         border-width: 0.2px;
@@ -92,7 +105,7 @@
         background-color: lightcyan;
     }
     .navDiv{
-        border: solid black;
+        /* border: solid black; */
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -102,7 +115,7 @@
     
     }
     .leftContainer{
-        border: solid black;
+        /* border: solid black; */
         display: flex;
         justify-content: space-between;
         width: 60%;
@@ -110,7 +123,7 @@
     
     }
     .rightContainer{
-        border: solid black;
+        /* border: solid black; */
         display: flex;
         justify-content: flex-end;
         width: 40%;
@@ -118,13 +131,15 @@
     
     }
     .logoContainer{
-        border: solid black;
+        /* border: solid black; */
        display: block;
+
     
     }
     .logo{
-        border: solid black;
+        /* border: solid black; */
         display: block;
+        width: 100%;
     
     }
     .searchdiv{
@@ -135,7 +150,7 @@
        
     }
     .navBtn{
-        border: solid black;
+        /* border: solid black; */
         display: none;
     
     }
@@ -165,7 +180,7 @@
         background-color: seagreen;
     }
     .navDiv{
-        border: solid black;
+        /* border: solid black; */
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -175,15 +190,15 @@
     
     }
     .leftContainer{
-        border: solid black;
+        /* border: solid black; */
         display: flex;
         justify-content: space-between;
-        width: 30%;
+        width: 20%;
         align-items: center;
     
     }
     .rightContainer{
-        border: solid black;
+        /* border: solid black; */
         display: flex;
         justify-content: flex-end;
         width: 40%;
@@ -191,13 +206,15 @@
     
     }
     .logoContainer{
-        border: solid black;
+        /* border: solid black; */
        display: block;
+       width: 100%;
     
     }
     .logo{
-        border: solid black;
+        /* border: solid black; */
         display: block;
+        /* width: 100%; */
     
     }
     .searchdiv{
@@ -208,7 +225,7 @@
        
     }
     .navBtn{
-        border: solid black;
+        /* border: solid black; */
         display: none;
     
     }
